@@ -44,17 +44,17 @@ p {
 }
 
 .banner {
-    background-image:url(images/banner.jpg);
+    background-image:url(images/banner.JPG);
 }
 .recover {
-    background-image: url(images/reno.jpg);
+    background-image: url(images/reno.JPG);
 }
 .pruning {
-    background-image: url(images/pruning.jpg);
+    background-image: url(images/pruning.JPG);
 }
 .landscape {
-    background-image: url(images/landscape.jpg);
+    background-image: url(images/landscape.JPG);
 }
 .contact {
-    background-image: url(images/contact.jpg);
+    background-image: url(images/contact.JPG);
 }
