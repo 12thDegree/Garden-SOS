@@ -33,16 +33,16 @@ body {
 }
 
 h1 {
-    font-size: 7.5vw;
-    text-shadow: 1vw 1vw 5vw black;
+    font-size: 7.5vmin;
+    text-shadow: 1vmin 1vmin 5vmin black;
     text-align: center;
 }
 
 p {
-    font-size: 3.75vw;
-    line-height: 5vh;
+    font-size: 3.75vmin;
+    line-height: 5vmin;
     text-align: center;
-    text-shadow: 1vw 1vw 5vw black;
+    text-shadow: 1vmin 1vmin 5vmin black;
 
 }
 
