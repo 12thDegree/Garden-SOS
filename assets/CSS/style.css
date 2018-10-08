@@ -22,9 +22,10 @@ html, body {
     width: 98%;
     height: 20%;
     margin: .5em auto;
+    box-sizing: border-box
 /* below two settings messed up in github pages, wasn't showing although works fine in preview in browser from studio code */
-    /* padding: 1em;
-    font-size: 2em; */
+    /* padding: 1em; */
+    /* font-size: 2em; */
     color: white;
     text-align: center;
     
@@ -37,7 +38,8 @@ h1 {
 
 p {
     font-size: 2em;
-    line-height: 0em;
+    /* following line height broke word wrap - new lines had height of 0, so they were on top of each other */
+    /* line-height: 0em; */
 }
 
 .banner, .recover, .pruning, .landscape, .contact {
@@ -48,17 +50,17 @@ p {
 }
 
 .banner {
-    background-image:url(assets/banner.jpg);
+    background-image:url(../images/banner.jpg);
 }
 .recover {
-    background-image: url(assets/reno.jpg);
+    background-image: url(../images/landscape.jpg);
 }
 .pruning {
-    background-image: url(assets/pruning.jpg);
+    background-image: url(../images/pruning.jpg);
 }
 .landscape {
-    background-image: url(assets/landscape.jpg);
+    background-image: url(../images/landscape.jpg);
 }
 .contact {
-    background-image: url(assets/contact.jpg);
+    background-image: url(../images/contact.jpg);
 }
